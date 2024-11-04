@@ -1,0 +1,195 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: white;
+    padding: 0;
+    text-align: center;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+nav ul {
+margin: 0%;
+    list-style: none;
+    padding: 10px 20px;
+    gap: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content:center;
+    background-color: rgba(159, 125, 165, 0.21);
+    
+    
+}
+
+nav li {
+   
+    margin: 5px;
+    padding: 10px;
+    display: inline;
+
+}
+
+nav a {
+    font-size: 1.2rem;
+    font-family: 'Oxygen Mono',monospace;
+    color:black;
+    text-decoration: none;
+    display: block;
+    transition-duration: 0.3s;
+    
+}
+
+
+nav ul li {
+    text-transform: capitalize;
+}
+
+
+.cart {
+    position: relative;
+}
+.cart-count {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 12px;
+    background-color: rgba(1, 50, 1, 0.507);
+    color:black;
+}
+nav a:hover {
+    color:rgba(1, 50, 1, 0.507);
+   
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0;
+    color:white;
+    background-color: rgba(159, 125, 165, 0.737);
+    padding:  5px 20px;
+
+    
+}
+
+
+
+.hero {
+    background-color:rgba(174, 174, 150, 0.236);
+    padding: 120px;
+    text-align: center;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.1)),url(images/watercolor-book-illustration-isolated-white-background_244157-2771.avif);
+    
+}
+
+.hero img {
+    width: 200px;
+    height: 150px;
+    margin-bottom: 50px;
+    justify-content: center;
+    background-attachment: fixed;
+    
+    
+
+}
+
+.hero h1 {
+    font-size: 30px;
+    margin-bottom: 35px;
+    margin-top: auto;
+    text-align:center;
+ color: black;
+    font-family: cursive;
+    
+}
+
+.hero p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-family:arial;
+}
+
+.button {
+    background-color:#333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 2cap;
+}
+
+.button:hover {
+    background-color:rgba(159, 125, 165, 0.737)
+}
+
+.events {
+    padding: 50px;
+    background-color:white;
+}
+
+.events h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.events ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.events li {
+    margin-bottom: 20px;
+}
+
+.events img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.events h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.events p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+nav li:hover{
+    scale: 1.1;
+   
+}
